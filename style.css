@@ -29,7 +29,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 23.5px;
+  padding: 20px;
 }
 
 .nav-content ul {
@@ -51,7 +51,6 @@ nav {
 }
 
 /* Nav Style End */
-
 
 /* Banner Section Style */
 .hero-banner {
@@ -89,11 +88,70 @@ nav {
 
 .banner-content p {
   font-size: 22px;
-  line-height: 1.6; 
+  line-height: 1.6;
   margin-bottom: 40px;
 }
 
+.banner-btn {
+  margin-top: 200px;
+}
+/* Banner Section style End */
 
-.banner-btn{
-    margin-top: 200PX;
+/* Speakers Section Styles */
+.speakers-section {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.speaker-title {
+  text-align: center;
+  font-size: 56px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 80px;
+}
+
+.speakers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 55px;
+}
+
+.speaker-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.speaker-thumb img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.speaker-info {
+  padding: 24px;
+}
+
+.speaker-tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  color: #2563eb;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.speaker-info h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0d1b2a;
+  margin-bottom: 8px;
+}
+
+.speaker-info p {
+  font-size: 14px;
+  color: #575757;
 }
