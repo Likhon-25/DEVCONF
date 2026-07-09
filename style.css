@@ -310,3 +310,75 @@ nav {
 
 /* Pricing Section Styles End*/
 
+
+
+/* Sponsors Section Styling start */
+.sponsors-section {
+  padding: 80px 20px;
+  background-color: #f9fafb; 
+  text-align: center;
+}
+
+.sponsors-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sponsors-section .section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #0f172a; 
+  margin-bottom: 10px;
+}
+
+.sponsors-section .section-subtitle {
+  font-size: 1rem;
+  color: #64748b; 
+  margin-bottom: 50px;
+}
+
+
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.sponsor-card {
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  border: 1px solid #f1f5f9;
+}
+
+
+.sponsor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(29, 78, 216, 0.1); 
+}
+
+.sponsor-card img {
+  max-width: 140px;
+  height: auto;
+  filter: grayscale(100%); 
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.sponsor-card:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* Sponsors Section Styling End */
+
+
+
