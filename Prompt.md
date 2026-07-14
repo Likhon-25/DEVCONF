@@ -1,6 +1,10 @@
+Live Link: https://likhon-25.github.io/DEVCONF/
+
+Repositories Link : https://github.com/Likhon-25/DEVCONF
+
 ![alt text](image.png)
 
-                                    ........Prompt 1.........
+                                    ........##Prompt 1.........
                                     
 1st a ame amr website ar akta screen shoot nesi then
 
@@ -9,3 +13,9 @@ ame ai page ta html and css deya banaise.. and necha akta footer section asa to 
                                     ........Prompt 2.........
 
 akn tui Event Highlights .. Section banai da
+
+##Technologies Used
+HTML5
+CSS3
+Git & GitHub
+GitHub Pages
